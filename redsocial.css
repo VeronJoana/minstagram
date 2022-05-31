@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Parisienne', cursive;
+background-color: blanchedalmond;
+}
+
+
+.contenedor{
+    display:flex;
+    flex: 1;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 90px;
+
+}
+
+
+
+.contenedor-card{
+    width: 320px;
+    height: 400px;
+    margin: 15px;
+
+}
+
+.nav-bar{
+    background-color:rgb(252, 209, 216) ;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 75px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.fa-camera{
+    font-size: 75px;
+    padding-right:15px ;
+
+}
+
+.letra{
+    text-decoration: none;
+    font-size: 50px;
+    color:black;
+    padding-left: 12px;
+
+    
+}
+
+.encabezado{
+    background-color:white;
+    height: 25px;
+    
+}
+
+.imagena{
+    display:flex;
+    justify-content:center;
+    margin: auto;
+    width: 100%;
+}
+.persona{
+    display:flex;
+    align-items: none;
+    justify-content:left;
+    margin-left: 10px; 
+    justify-content: space-between;
+
+}
+
+.fa-circle-user{
+    margin-top: 5px;
+}
+
+.persona-texto{
+    display: flex;
+    justify-content: space-between;
+margin-top: -15px;
+}
+
+
+
+.iconos{
+    display: flex;
+    align-items: none;
+    justify-content:left;
+    margin-left: 0;
+    padding-left: 10px;
+    background-color: white;
+    
+
+}
+
+.icono-pocket{
+    display: flex;
+    align-items: none;
+    justify-content:right;
+    margin-right:  10px;
+    margin-top: -60px;
+}
+
+.fa-ellipsis{
+    margin-right: 0.2em;
+}
+
